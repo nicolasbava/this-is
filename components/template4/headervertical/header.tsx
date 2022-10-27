@@ -36,8 +36,8 @@ export default function HeaderNavVertical(props: Props) {
         console.log("window.innerHeight", window.innerHeight);
     }, []);
     return (
-        <div >
-            <div className="fixed z-50 rounded-r lg:hidden flex justify-between w-full  lg:w-1/4 p-6 items-center bg-t5primary  mb-1 h-auto">
+        <div className='' >
+            <div className="sticky z-50 rounded-r lg:hidden flex justify-between w-full lg:w-1/4 p-6 items-center bg-t5primary  mb-1 h-auto">
                 <div className="flex justify-between  items-center space-x-3">
                     <Link href={'https://www.wijex.com'}>
                         <img src="/logo-wijex-blue.png"
@@ -63,8 +63,8 @@ export default function HeaderNavVertical(props: Props) {
                 </div>
             </div>
             <div id="Main" 
-                className={`${show ? '' : '-translate-x-full'} transform lg:translate-x-0 ease-in-out transition duration-500 flex justify-start items-start h-full w-full lg:w-auto base:w-64 flex-col`}
-                style={{position: 'fixed', top: '68px', height: '314px', background: 'white'}}    
+                className={`${show ? '' : '-translate-x-full'} sticky top-0 transform lg:translate-x-0 ease-in-out transition duration-500 flex justify-start items-start h-full w-full lg:w-auto base:w-64 flex-col`}
+                
             >
 
                 
@@ -159,7 +159,7 @@ export default function HeaderNavVertical(props: Props) {
             {showModal ? (
                 <>
                     <div
-                        className="justify-center items-center flex overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none"
+                        className="justify-center items-center flex overflow-x-hidden overflow-y-auto sticky top-0 inset-0 z-50 outline-none focus:outline-none"
                     >
                         <div className="relative w-auto my-6 mx-auto max-w-3xl">
                             {/*content*/}
