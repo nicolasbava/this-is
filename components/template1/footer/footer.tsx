@@ -7,7 +7,7 @@ export default function FooterNav() {
                 <div className="flex flex-row justify-between item-center pt-2">
                     <Link href={'https://www.wijex.com'}>
                         <img
-                            src="/logo-wijex.png"
+                            src="/logo-wijex-footer.png"
                             width={93.75} height={43.5}
                             alt="logo-wijex.png"
                             loading="lazy"
