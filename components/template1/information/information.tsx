@@ -32,6 +32,8 @@ const InformationProfile = (props: BannerProps) => {
                             height={270}
                             alt="logo-wijex"
                             className="h-56 w-56 object-cover"
+                            loading="lazy"
+                            
                         />
 
                         

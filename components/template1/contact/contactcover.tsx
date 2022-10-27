@@ -49,6 +49,8 @@ const ContactProfileCover = (props: ContactProps) => {
                         <img
                             src={`${router.basePath + props.avatar}`}
                             width={200}
+                            loading="lazy"
+                            
                             height={200}
                             alt="logo-wijex"
                             className="h-40 w-40 lg:h-60 lg:w-60 object-cover rounded-full -mt-5"

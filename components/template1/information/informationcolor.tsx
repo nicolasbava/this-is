@@ -27,6 +27,8 @@ const InformationColorProfile = (props: BannerProps) => {
                             height={270}
                             alt="logo-wijex"
                             className="object-cover"
+                            loading="lazy"
+                            
                         />
                     </div>
                 </div>

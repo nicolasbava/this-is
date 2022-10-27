@@ -24,6 +24,8 @@ const InformationProfileSalmon = (props: BannerProps) => {
                             width={450}
                             height={270}
                             
+                            loading="lazy"
+                            
                             alt="logo-wijex"
                             className="h-56 w-56 object-cover"
                         />

@@ -38,6 +38,8 @@ const ContactProfileWhite = (props: ContactProps) => {
                             src={`${router.basePath + props.avatar}`}
                             width={270}
                             height={270}
+                            loading="lazy"
+                            
                             
                             alt="logo-wijex"
                             className="h-48 w-48 object-cover rounded-full"

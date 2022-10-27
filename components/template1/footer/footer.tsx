@@ -10,6 +10,7 @@ export default function FooterNav() {
                             src="/logo-wijex.png"
                             width={93.75} height={43.5}
                             alt="logo-wijex.png"
+                            loading="lazy"
                         />
                     </Link>
                     <div className="flex flex-row justify-between items-center hidden md:flex">

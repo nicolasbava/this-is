@@ -38,6 +38,7 @@ export default function HeaderNav(props: Props) {
                             <img src="/logo-wijex-blue.png"
                                 width={93.75} height={43.5}
                                 alt="logo-wijex"
+                                loading="lazy"
                             />
                         </Link>
                         <button

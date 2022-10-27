@@ -9,7 +9,7 @@ export default function FooterNavWhite() {
                         <img
                             src="/logo-wijex.png"
                             width={93.75} height={43.5}
-                            
+                            loading="lazy"
                             alt="logo-wijex.png"
                         />
                     </Link>

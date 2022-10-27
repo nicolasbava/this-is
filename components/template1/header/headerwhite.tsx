@@ -33,7 +33,7 @@ export default function HeaderNav(props: Props) {
                         <Link href={'https://www.wijex.com'}>
                             <img src="/logo-wijex-blue.png"
                                 width={93.75} height={43.5}
-
+                                loading="lazy"
                                 alt="logo-wijex"
                             />
                         </Link>
