@@ -55,16 +55,16 @@ const ContactProfile = (props: ContactProps) => {
                         />
                     </div>
                 </div>
-                <div className="flex flex-wrap">
+                <div >
                     <div className="mx-auto md:pl-10">
-                        <div className="flex-col flex self-center p-10 sm:py-5">
-                            <div className="flex items-center justify-center lg:items-start lg:justify-center flex-col">
+                        <div className="flex-col flex self-center py-10 sm:py-5">
+                            <div className="flex items-center justify-center px-8 lg:items-start lg:justify-center flex-col">
                                 {/* === title in desktop version === */}
                                 <h1 className="mb-3 sm:hidden lg-inline text-center text-2xl font-bold leading-none tracking-wide uppercase text-blackcolor title-font lg:text-3xl">
                                     {props.name}
                                 </h1>
                             </div>
-                            <div className="grid grid-flow-row gap-4 mt-4" style={{ display: 'inline-block', justifyContent: 'start', alignContent: 'start' }}>
+                            <div className="grid grid-flow-row gap-4 mt-4 px-5" style={{ display: 'inline-block', justifyContent: 'start', alignContent: 'start' }}>
                                 
                                 {/* PHONE - TELEFONO */}
                                 <a href={`tel:${props.phone}`} target="_blank" rel="noopener noreferrer">
@@ -96,7 +96,7 @@ const ContactProfile = (props: ContactProps) => {
                                                 className="rounded-full mb-5 sm:mb-0"
                                             />
                                         </div>
-                                        <h3 className="text-darkgray  mb-5 sm:mb-0 title-font text-base lg:text-lg sm:ml-2 mt-1">
+                                        <h3 className="text-darkgray break-words  mb-5 sm:mb-0 title-font text-base lg:text-lg sm:ml-2 mt-1">
                                             {props.email}
                                         </h3>
                                     </div>

@@ -12,7 +12,7 @@ type CoverPageProps = {
 const CoverPageText = (props: CoverPageProps) => {
   const router = useRouter();
   return (
-    <section className='mt-20' id='home'>
+    <section className='' id='home'>
 
       <div className="absolute">
         <div className="mx-auto ml-5 mt-5 md:pl-10 md:mt-12 lg:ml-12 lg:pl-12 lg:pt-12" >

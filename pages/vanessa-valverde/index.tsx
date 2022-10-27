@@ -1,22 +1,22 @@
 import React from 'react';
 import Head from 'next/head';
 import type { NextPage } from 'next';
-//import Layout from '../components/layout/layout';
+import Layout from '../../components/template1/layout/layout';
+import LayoutWhite from '../../components/template1/layout/layoutwhite';
+import { Gallery } from '../../components/template1/gallery/gallery';
+import FormContactColor from '../../components/template1/form/formcolor';
+import { CoverPage } from '../../components/template1/coverpage/coverpage';
+import { PlinthColor } from '../../components/template1/plinth/plinthcolor';
+import { ContactProfile } from '../../components/template1/contact/contact';
+import { SocialMedia } from '../../components/template1/socialmedia/socialmedia';
+import { PlinthColorTitle } from '../../components/template1/plinthtitle/plinthcolortitle';
+import { InformationColorProfile } from '../../components/template1/information/informationcolor';
 
-import Layout from '../../components/template3/layout/layout';
-import { CoverPageTwo } from '../../components/template3/coverpage/coverpagetwo';
-import { Plinth } from '../../components/template3/plinth/plinth';
-import { ContactProfileTwo } from '../../components/template3/contact/contacttwo';
-import { PlinthTitle } from '../../components/template3/plinthtitle/plinthtitle';
-import { Gallery } from '../../components/template3/gallery/gallery';
-import FormContact from '../../components/template3/form/form';
-
-// import data
-import { CONTACT_DATA, CURRICULUM_DATA } from '../../profile-data/geraldin-aguirre/config-data';
-import { IMAGE_DATA, PERSONAL_DATA, SOCIALNET_DATA } from '../../profile-data/geraldin-aguirre/config-data';
+import { CONTACT_DATA, CURRICULUM_DATA } from '../../profile-data/vanessa-valverde/config-data'; //CAMBIAR DIRECCION
+import { IMAGE_DATA, PERSONAL_DATA, SOCIALNET_DATA } from '../../profile-data/vanessa-valverde/config-data'; //CAMBIAR DIRECCION
 
 
-const Home: NextPage = () => {
+const ProfilePage: NextPage = () => {
   return (
     <div>
       <Head>
@@ -24,12 +24,8 @@ const Home: NextPage = () => {
         <meta key="description" name="description" content="nombre de la app" />
         <title>{PERSONAL_DATA.NAME}</title>
         <link rel="icon" href="/favicon.ico" />
-        <link
-          href="https://api.mapbox.com/mapbox-gl-js/v0.51.0/mapbox-gl.css"
-          rel="stylesheet"
-        />
       </Head>
-      <Layout
+      <LayoutWhite
         name={PERSONAL_DATA.NAME}
         description={PERSONAL_DATA.DESCRIPTION}
         email={CONTACT_DATA.EMAIL}
@@ -40,50 +36,40 @@ const Home: NextPage = () => {
         province={CONTACT_DATA.PROVINCE}
         country={CONTACT_DATA.COUNTRY}
         avatar={IMAGE_DATA.AVATAR}
-        url={'geraldin-aguirre'}
+        url={'vanessa-valverde'}
       >
-        <CoverPageTwo
+        <CoverPage
           name={PERSONAL_DATA.NAME}
           description={PERSONAL_DATA.DESCRIPTION}
           colorName={PERSONAL_DATA.COLORNAME}
           colorDescription={PERSONAL_DATA.COLORDESCRIPTION}
           coverPageUrl={IMAGE_DATA.BANNER}
-          information={PERSONAL_DATA.HISTORY}
-          pdf={CURRICULUM_DATA.CURRICULUM_VITAE}
-          imgInformation={IMAGE_DATA.INFORMATION}
         />
-        <Plinth />
-        <ContactProfileTwo
+        <PlinthColor color={PERSONAL_DATA.TEMPLATE} />
+        <InformationColorProfile
           name={PERSONAL_DATA.NAME}
-          email={CONTACT_DATA.EMAIL}
-          phone={CONTACT_DATA.PHONE}
-          address={CONTACT_DATA.ADDRESS}
-          number={CONTACT_DATA.NUMBER}
-          locality={CONTACT_DATA.LOCALITY}
-          province={CONTACT_DATA.PROVINCE}
-          country={CONTACT_DATA.COUNTRY}
-          avatar={IMAGE_DATA.AVATAR}
-          url={'geraldin-aguirre'}
-          information={PERSONAL_DATA.HISTORY}
+          description={PERSONAL_DATA.HISTORY}
           pdf={CURRICULUM_DATA.CURRICULUM_VITAE}
           imgInformation={IMAGE_DATA.INFORMATION}
+          btnName={'Catalogos de Servicios'}
+          color={PERSONAL_DATA.TEMPLATE}
         />
-        <PlinthTitle
+        <PlinthColorTitle
           title={'Galería'}
+          color={PERSONAL_DATA.TEMPLATE}
         />
         <Gallery
           gallery_1={IMAGE_DATA.GALLERY_1}
           gallery_2={IMAGE_DATA.GALLERY_2}
           gallery_3={IMAGE_DATA.GALLERY_3}
         />
-
-        <PlinthTitle
-          title={'Quiero más información'}
+        <PlinthColorTitle
+          title={'Contacto'}
+          color={PERSONAL_DATA.TEMPLATE}
         />
-        <FormContact
+        <ContactProfile
           name={PERSONAL_DATA.NAME}
           email={CONTACT_DATA.EMAIL}
-          background={IMAGE_DATA.BACKGROUND}
           phone={CONTACT_DATA.PHONE}
           address={CONTACT_DATA.ADDRESS}
           number={CONTACT_DATA.NUMBER}
@@ -91,19 +77,31 @@ const Home: NextPage = () => {
           province={CONTACT_DATA.PROVINCE}
           country={CONTACT_DATA.COUNTRY}
           avatar={IMAGE_DATA.AVATAR}
+          url={'vanessa-valverde'}
+        />
+        <PlinthColorTitle
+          title={'Quiero más información'}
+          color={PERSONAL_DATA.TEMPLATE}
+        />
+        <FormContactColor
+          name={PERSONAL_DATA.NAME}
+          email={CONTACT_DATA.EMAIL}
+          color={PERSONAL_DATA.TEMPLATE}
+        />
+        <SocialMedia
+          name={PERSONAL_DATA.NAME}
           linkedin={SOCIALNET_DATA.LINKEDIN}
           youtube={SOCIALNET_DATA.YOUTUBE}
           twitter={SOCIALNET_DATA.TWITTER}
           facebook={SOCIALNET_DATA.FACEBOOK}
           instagram={SOCIALNET_DATA.INSTAGRAM}
           tiktok={SOCIALNET_DATA.TIKTOK}
-          telegram={SOCIALNET_DATA.TELEGRAM}
           wijex={SOCIALNET_DATA.WIJEX}
+          telegram={SOCIALNET_DATA.TELEGRAM}
         />
-
-      </Layout>
+      </LayoutWhite>
     </div>
   )
 }
 
-export default Home
+export default ProfilePage

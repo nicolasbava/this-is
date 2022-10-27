@@ -19,7 +19,7 @@ const CoverPageBlue = (props: CoverPageProps) => {
     <>
         {/* img de fondo */}
         <div  id='home'
-          className='mt-20 flex flex-col items-baseline justify-end special min-h-full md:mt-28 md:h-screen lg:h-screen lg:mt-16'
+          className=' flex flex-col items-baseline justify-end special min-h-full  md:h-screen lg:h-screen '
           style={{backgroundImage:`url(${router.basePath + props.coverPageUrl})`, minHeight:'40vh', backgroundSize:'cover', backgroundPosition: 'center center' 
           }}
         > 

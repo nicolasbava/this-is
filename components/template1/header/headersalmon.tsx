@@ -27,7 +27,7 @@ export default function HeaderNav(props:Props) {
         console.log("window.innerHeight", window.innerHeight);
       }, []);
     return (
-        <header className="bg-fifth fixed z-50 w-screen">
+        <header className="bg-fifth  sticky z-50 w-screen">
             <nav className="container mx-auto px-6 md:px-12 py-4">
                 <div className="lg:flex justify-between items-center" >
                     <div className="flex justify-between items-center" >

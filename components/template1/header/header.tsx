@@ -16,6 +16,7 @@ type Props = {
     avatar: string;
     url: string;
 };
+
 export default function HeaderNav(props: Props) {
     const router = useRouter();
     const [active, setActive] = useState(true);
@@ -29,7 +30,7 @@ export default function HeaderNav(props: Props) {
         console.log("window.innerHeight", window.innerHeight);
       }, []);
     return (
-        <header className={`bg-t1primary  shadow mb-1 ${styles.customHeader} `}  >
+        <header className={`bg-t1primary sticky  shadow mb-1 ${styles.customHeader} `}  >
             <nav className="container mx-auto px-6 md:px-12 py-2">
                 <div className="md:flex justify-between items-center" >
                     <div className="flex justify-between items-center" >

@@ -26,12 +26,12 @@ export default function HeaderNav(props: Props) {
         console.log("window.innerHeight", window.innerHeight);
     }, []);
     return (
-        <header className="bg-whitecolor">
+        <header className="bg-whitecolor sticky top-0 z-50 w-full text-bluecolor shadow-md">
             <nav className="container mx-auto px-6 md:px-12 py-2">
                 <div className="md:flex justify-between items-center" >
                     <div className="flex justify-between items-center" >
                         <Link href={'https://www.wijex.com'}>
-                            <img src="/logo-wijex.png"
+                            <img src="/logo-wijex-blue.png"
                                 width={93.75} height={43.5}
 
                                 alt="logo-wijex"
@@ -64,21 +64,21 @@ export default function HeaderNav(props: Props) {
                             <div className="lg:pr-10">
                                 <a
                                     href={`${router.basePath}`}
-                                    className="text-sm font-semibold leading-none tracking-tighter text-whitecolor title-font uppercase mx-3 text-whitecolor cursor-pointer hover:text-third">
+                                    className="text-sm font-semibold leading-none tracking-tighter  title-font uppercase mx-3  cursor-pointer hover:text-third">
                                     INICIO
                                 </a>
                             </div>
                             <div className="lg:px-10">
                                 <a
                                     href={`${router.basePath}#informationprofile`}
-                                    className="text-sm font-semibold leading-none tracking-tighter text-whitecolor title-font uppercase mx-3 text-whitecolor cursor-pointer hover:text-third">
+                                    className="text-sm font-semibold leading-none tracking-tighter  title-font uppercase mx-3  cursor-pointer hover:text-third">
                                     SOBRE MÍ
                                 </a>
                             </div>
                             <div className="lg:px-10">
                                 <a
                                     href={`${router.basePath}#galleryprofile`}
-                                    className="text-sm font-semibold leading-none tracking-tighter text-whitecolor title-font uppercase mx-3 text-whitecolor cursor-pointer hover:text-third"
+                                    className="text-sm font-semibold leading-none tracking-tighter  title-font uppercase mx-3  cursor-pointer hover:text-third"
                                 >
                                     Galería
                                 </a>
@@ -86,7 +86,7 @@ export default function HeaderNav(props: Props) {
                             <div className="lg:pl-10">
                                 <a
                                     href={`${router.basePath}#contactprofile`}
-                                    className="text-sm font-semibold leading-none tracking-tighter text-whitecolor title-font uppercase mx-3 text-whitecolor cursor-pointer hover:text-third"
+                                    className="text-sm font-semibold leading-none tracking-tighter  title-font uppercase mx-3  cursor-pointer hover:text-third"
                                 >
                                     CONTACTO
                                 </a>
@@ -94,7 +94,7 @@ export default function HeaderNav(props: Props) {
                             <div className='lg:pl-10'>
                                 <text
                                     onClick={() => { setActive(false); setShowModal(true) }}
-                                    className="text-sm font-semibold leading-none tracking-tighter text-whitecolor title-font uppercase mx-3 text-whitecolor cursor-pointer hover:text-third"
+                                    className="text-sm font-semibold leading-none tracking-tighter  title-font uppercase mx-3  cursor-pointer hover:text-third"
                                 >
                                     COMPARTIR
                                 </text>
@@ -122,12 +122,12 @@ export default function HeaderNav(props: Props) {
                                         />
                                         <div className='flex flex-col ml-2'>
                                             <text
-                                                className="text-sm leading-none font-semibold text-whitecolor title-font  text-whitecolor  text-left"
+                                                className="text-sm leading-none font-semibold  title-font    text-left"
                                             >
                                                 Descargar
                                             </text>
                                             <text
-                                                className="text-sm leading-none font-semibold text-whitecolor title-font  text-whitecolor  text-left mt-0.5"
+                                                className="text-sm leading-none font-semibold  title-font    text-left mt-0.5"
                                             >
                                                 Contacto
                                             </text>
