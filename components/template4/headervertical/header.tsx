@@ -36,9 +36,9 @@ export default function HeaderNavVertical(props: Props) {
         console.log("window.innerHeight", window.innerHeight);
     }, []);
     return (
-        <div className='w-full bg-whitecolor' >
-            <div className="sticky w-full z-50 rounded-r lg:hidden flex justify-between lg:w-1/4 p-6 items-center bg-t5primary  mb-1 h-auto">
-                <div className="flex justify-between  items-center space-x-3">
+        <div className='w-full bg-whitecolor lg:h-full' >
+            <div className="sticky w-full z-50 rounded-r lg:hidden h-full flex justify-between lg:w-1/4 p-6 items-center bg-t5primary  mb-1 ">
+                <div className="flex justify-between  items-center lg:pt-5">
                     <Link href={'https://www.wijex.com'}>
                         <img src="/logo-wijex-blue.png"
                             width={93.75} height={43.5}
@@ -201,7 +201,7 @@ export default function HeaderNavVertical(props: Props) {
                             </div>
                         </div>
                     </div>
-                    <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
+                    {/* <div className="opacity-25 fixed inset-0 z-40 bg-black"></div> */}
                 </>
             ) : null}
         </div>
