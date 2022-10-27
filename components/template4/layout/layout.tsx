@@ -21,7 +21,7 @@ export default function Layout(props: Props) {
   return (
     <div className="flex flex-col min-h-screen">
       <div className="lg:flex lg:flex-row ">
-        <div className="lg:flex lg:flex-col shadow-2xl mr-1">
+        <div className="lg:flex lg:flex-col fixed z-50 w-full lg:w-min h-full shadow-2xl mr-1">
           <HeaderNavVertical
             name={props.name}
             description={props.description}
@@ -33,7 +33,7 @@ export default function Layout(props: Props) {
           />
         </div>
         <div className="lg:flex lg:flex-col w-full">
-          <main className="flex-1 lg:ml-32">
+          <main className="flex-1  lg:ml-28 ">
             {props.children}
           </main>
         </div>
