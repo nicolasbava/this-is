@@ -88,7 +88,7 @@ const FormContact = (props: FormContactProps) => {
                             type="text"
                             value={userName}
                             onChange={(value: any) => setUserName(value.currentTarget.value)}
-                            className="block w-full  px-4 py-2 mt-2 text-t1primary bg-t1inputcolor border border-t1inputcolor rounded-md dark:bg-t1inputcolor dark:text-t1primary dark:border-t1inputcolor focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring" />
+                            className="block w-full  px-4 py-2 mt-2 text-t1labelcolor bg-t1inputcolor border border-t1inputcolor rounded-md dark:bg-t1inputcolor dark:text-t1primary dark:border-t1inputcolor focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring" />
                     </div>
                     <div>
                         <label className="sm:pl-4 text-t1labelcolor dark:text-t1secondary">Asunto</label>
@@ -118,7 +118,7 @@ const FormContact = (props: FormContactProps) => {
                             type="text"
                             value={userPhone}
                             onChange={(value: any) => setUserPhone(value.currentTarget.value)}
-                            className="block w-full px-4 py-2 mt-2 text-t1primary bg-t1inputcolor border border-t1inputcolor rounded-md dark:bg-t1inputcolor dark:text-t1primary dark:border-t1inputcolor focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring" />
+                            className="block w-full px-4 py-2 mt-2 text-t1labelcolor bg-t1inputcolor border border-t1inputcolor rounded-md dark:bg-t1inputcolor dark:text-t1primary dark:border-t1inputcolor focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring" />
                     </div>
                 </div>
                 <div className="grid grid-cols-1 gap-8 mt-4">
@@ -129,13 +129,13 @@ const FormContact = (props: FormContactProps) => {
                             name="userMessage"
                             value={userMessage}
                             onChange={(value: any) => setUserMessage(value.currentTarget.value)}
-                            className="block w-full px-4 py-2 mt-2 text-t1primary bg-t1inputcolor border border-t1inputcolor rounded-md dark:bg-t1inputcolor dark:text-t1primary dark:border-t1inputcolor focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring duration-200 ease-in-out"></textarea>
+                            className="block w-full px-4 py-2 mt-2 text-t1labelcolor bg-t1inputcolor border border-t1inputcolor rounded-md dark:bg-t1inputcolor dark:text-t1primary dark:border-t1inputcolor focus:border-blue-500 dark:focus:border-blue-500 focus:outline-none focus:ring duration-200 ease-in-out"></textarea>
                     </div>
                 </div>
                 <div className="flex justify-center mt-6">
                     <button
                         type='submit'
-                        className="px-8 py-3 pt-4 leading-5 transition-colors duration-200 transform bg-t1btncolor rounded-md hover:bg-t1btncolor focus:outline-none focus:bg-t1btncolor shadow-lg" style={{ color: 'white' }}>
+                        className="px-8 py-3 pt-4 leading-5 transition-colors duration-200 transform bg-t1secondary rounded-md hover:bg-primary focus:outline-none focus:bg-t1btncolor shadow-lg" style={{ color: 'white' }}>
                         <h1 className="mx-auto text-base font-semibold leading-none tracking-tighter text-whitecolor title-font">
                             ENVIAR
                         </h1>

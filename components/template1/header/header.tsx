@@ -126,12 +126,12 @@ export default function HeaderNav(props: Props) {
                                         />
                                         <div className='flex flex-col ml-2'>
                                             <text
-                                                className="text-sm leading-none font-semibold text-whitecolor title-font  text-whitecolor  text-left"
+                                                className="text-sm leading-none font-semibold title-font  text-whitecolor  text-left"
                                             >
                                                 Descargar
                                             </text>
                                             <text
-                                                className="text-sm leading-none font-semibold text-whitecolor title-font  text-whitecolor  text-left mt-0.5"
+                                                className="text-sm leading-none font-semibold <title-font  text-whitecolor  text-left mt-0.5"
                                             >
                                                 Contacto
                                             </text>

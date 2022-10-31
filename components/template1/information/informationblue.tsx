@@ -43,7 +43,7 @@ const InformationProfileBlue = (props: BannerProps) => {
                             </p>
                             <div className="pt-6">
                                 <button onClick={() => onResumeClick()}
-                                    className="px-8 py-2 leading-5 transition-colors duration-200 transform bg-gradient-to-r from-fourth to-primary rounded-md hover:bg-gradient-to-r from-fourth to-primary focus:outline-none focus:bg-gradient-to-r from-fourth to-primary  shadow-lg"
+                                    className="px-8 py-2 leading-5 transition-colors duration-200 transform bg-gradient-to-r rounded-md hover:bg-gradient-to-r focus:outline-none focus:bg-gradient-to-r from-fourth to-primary  shadow-lg"
                                     style={{ color: 'white' }}
                                 >
                                     <h2 className="mx-auto justify text-l font-semibold leading-none tracking-wide text-whitecolor title-font lg:text-base">

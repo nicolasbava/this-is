@@ -27,7 +27,7 @@ export default function HeaderNav(props:Props) {
         console.log("window.innerHeight", window.innerHeight);
       }, []);
     return (
-        <header className="bg-fifth  sticky z-50 w-screen">
+        <header className="bg-fifth  sticky z-50 w-full">
             <nav className="container mx-auto px-6 md:px-12 py-4">
                 <div className="lg:flex justify-between items-center" >
                     <div className="flex justify-between items-center" >
@@ -123,12 +123,12 @@ export default function HeaderNav(props:Props) {
                                         />
                                         <div className='flex flex-col ml-2'>
                                             <text
-                                                className="text-sm leading-none font-semibold text-whitecolor title-font  text-whitecolor  text-left"
+                                                className="text-sm leading-none font-semibold title-font  text-whitecolor  text-left"
                                             >
                                                 Descargar
                                             </text>
                                             <text
-                                                className="text-sm leading-none font-semibold text-whitecolor title-font  text-whitecolor  text-left mt-0.5"
+                                                className="text-sm leading-none font-semibold title-font  text-whitecolor  text-left mt-0.5"
                                             >
                                                 Contacto
                                             </text>
