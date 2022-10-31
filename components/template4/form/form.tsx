@@ -186,7 +186,7 @@ const FormContact = (props: FormContactProps) => {
                                                 type="text"
                                                 value={userName}
                                                 onChange={(value: any) => setUserName(value.currentTarget.value)}
-                                                className="block w-full  px-4 py-2 mt-2 text-primary bg-t5inputcolor border border-t5inputcolor rounded-md dark:bg-t5inputcolor dark:text-primary dark:border-t5inputcolor dark:focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-t5secondary duration-200 ease-in-out" />
+                                                className="block w-full placeholder-black  px-4 py-2 mt-2 text-primary bg-t5inputcolor border border-t5inputcolor rounded-md dark:bg-t5inputcolor dark:text-primary dark:border-t5inputcolor dark:focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-t5secondary duration-200 ease-in-out" />
                                         </div>
                                         <div>
                                             <label className="sm:pl-4 text-t5labelcolor dark:text-secondary">Asunto</label>

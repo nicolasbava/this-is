@@ -19,9 +19,9 @@ type Props = {
 
 export default function Layout(props: Props) {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col ">
       <div className="lg:flex lg:flex-row ">
-        <div className="lg:flex lg:flex-col fixed z-50 w-full lg:w-min h-full shadow-2xl mr-1">
+        <div className="lg:flex lg:flex-col fixed z-50 w-full lg:w-min shadow-2xl mr-1">
           <HeaderNavVertical
             name={props.name}
             description={props.description}

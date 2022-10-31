@@ -12,7 +12,7 @@ export default function FooterNav() {
                             alt="logo-wijex.png"
                         />
                     </Link>
-                    <div className="flex flex-row justify-between items-center md:flex pt-3">
+                    <div className="hidden md:flex flex-row justify-between items-center pt-3">
                         <p className="text-whitecolor text-xs md:text-base">Creado por <Link href={'https://www.wijex.com'}>Wijex</Link> © 2021 Todos los derechos reservados</p>
                     </div>
                     <div className="flex flex-col justify-center item-center md:hidden">

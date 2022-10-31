@@ -8,11 +8,11 @@ const PERSONAL_DATA = {
 
 const IMAGE_DATA = {
     BANNER: '/profile/sandra-ballesteros/SB-1.png',
-    COVERPAGE: '/profile/sandra-ballesteros/SB-2.png', //CAMBIAR DIRECCION DE LAS IMAGENE
-    INFORMATION: '/profile/sandra-ballesteros/SB-2.png',
+    COVERPAGE: '/profile/sandra-ballesteros/SB-5.png', //CAMBIAR DIRECCION DE LAS IMAGENE
+    INFORMATION: '/profile/sandra-ballesteros/SB-5.png',
     AVATAR: '/profile/sandra-ballesteros/SB-1.png', // cambio por perfil2
-    GALLERY_1: '/profile/sandra-ballesteros/SB-3.png',
-    GALLERY_2: '/profile/sandra-ballesteros/SB-5.png',
+    GALLERY_1: '/profile/sandra-ballesteros/SB-4.png',
+    GALLERY_2: '/profile/sandra-ballesteros/SB-3.png',
     GALLERY_3: '/profile/sandra-ballesteros/SB-6.png',
 }
 
@@ -32,13 +32,13 @@ const SOCIALNET_DATA = {
     TWITTER: 'https://twitter.com/SandraBCoachE',
     FACEBOOK: 'https://www.facebook.com/angelica.palaciosballesteros/', //preguntar
     INSTAGRAM: 'https://www.instagram.com/sandraballesterospalacios/',
-    TIKTOK: 'https://www.tiktok.com/upload?lang=es',
+    TIKTOK: '',
     WIJEX: 'https://comunidad.wijex.com/setting/profile-setting', //preguntar
     TELEGRAM: ''
 }
 
 const CURRICULUM_DATA = {
-    CURRICULUM_VITAE: '/profile/sandra-ballesteros/PERFILPERSONAL.pdf'
+    CURRICULUM_VITAE: '/profile/sandra-ballesteros/SB-32.png'
 }
 
 const NONE_DATA = {

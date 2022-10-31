@@ -43,7 +43,7 @@ const ProfilePage: NextPage = () => {
           information={PERSONAL_DATA.HISTORY}
           pdf={CURRICULUM_DATA.CURRICULUM_VITAE}
           imgInformation={IMAGE_DATA.INFORMATION}
-          btnName={'Ver Currículum'}
+          btnName={'Mi negocio, tú negocio Wijex'}
         />
         <SocialMedia
           name={PERSONAL_DATA.NAME}

@@ -9,7 +9,7 @@ const PERSONAL_DATA = {
 const IMAGE_DATA = {
     BANNER: '/profile/rebeca-segundo/RSEGUNDO_PORTADA-01.png',
     INFORMATION: '/profile/rebeca-segundo/RSEGUNDO_PERFIL-03.png',
-    AVATAR: '/profile/rebeca-segundo/RSEGUNDO_PERFIL-02.png',
+    AVATAR: '/profile/rebeca-segundo/RS-4.png',
     GALLERY_1: '/profile/rebeca-segundo/RS-3.png',
     GALLERY_2: '/profile/rebeca-segundo/RSEGUNDO_GALERIA-05.png',
     GALLERY_3: '/profile/rebeca-segundo/RSEGUNDO_GALERIA-06.png',
