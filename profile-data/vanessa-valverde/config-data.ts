@@ -21,7 +21,7 @@ const CONTACT_DATA = {
     PHONE: '+598 92 839 056',
     ADDRESS: 'Camino Buchental 00 y Gr Fructuoso Rivera ',
     NUMBER: '',
-    LOCALITY: 'San José',
+    LOCALITY: 'Libertad',
     PROVINCE: 'San José',
     COUNTRY: 'Uruguay'
 }

@@ -68,7 +68,7 @@ export default function HeaderNavVertical(props: Props) {
             >
 
                 
-                <div className="hidden lg:flex justify-start ml-3 p-6 lg:p-3 items-center space-x-3">
+                <div className="hidden lg:flex justify-start ml-2 mt-2 p-6 lg:p-3 items-center space-x-3">
                     <Link href={'https://www.wijex.com'}>
                         <img src="/logo-wijex-blue.png"
                             width={93.75} height={43.5}
@@ -115,7 +115,7 @@ export default function HeaderNavVertical(props: Props) {
                             COMPARTIR
                         </text>
                     </div>
-                    <div className='pl-2 mb-6' >
+                    <div className='pl-2 mb-6 lg:hidden' >
                         <button className='hover:bg-t5background px-2 rounded-md'
                             onClick={() => {
                                 var file = new Blob(
