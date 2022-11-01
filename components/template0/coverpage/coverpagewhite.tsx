@@ -22,7 +22,7 @@ const CoverPageWhite = (props: CoverPageProps) => {
               {props.name}
             </h1>
           </div>
-          <div className="lg:w-3/4 flex flex-col items-start">
+          <div className="hidden md:flex lg:w-3/4 flex-col items-start">
             <div className="self-start lg:flex flex-col">
               <p
                 className="leading-none tracking-tighter text-sm md:text-xl uppercase"
@@ -37,6 +37,7 @@ const CoverPageWhite = (props: CoverPageProps) => {
       <img
         src={`${router.basePath + props.coverPageUrl}`}
         alt="CoverPage/png"
+        className="w-screen"
       />
     </section>
   );

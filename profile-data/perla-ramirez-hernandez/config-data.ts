@@ -3,16 +3,16 @@ const PERSONAL_DATA = {
     COLORNAME: '#000000',
     DESCRIPTION: 'Consultor Digital',
     COLORDESCRIPTION: '#000000',
-    HISTORY: 'Soy de Montevideo Uruguay Consultora Digital en WijeX Le Ponemos Corazón al Mundo Digital'
+    HISTORY: 'Construye una vida donde no tengas que pedir permiso para difrutar de las cosas que mas te apacionan!!! ♥️'
 }
 
 const IMAGE_DATA = {
-    BANNER: '/profile/perla-ramirez-hernandez/PRHERNANDEZ_PORTADA.png', //CAMBIAR DIRECCION DE LAS IMAGENES
-    INFORMATION: '/profile/perla-ramirez-hernandez/PRHERNANDEZ_PERFIL.png',
-    AVATAR: '/profile/perla-ramirez-hernandez/PRHERNANDEZ_PERFIL.png',
-    GALLERY_1: '/profile/perla-ramirez-hernandez/PRHERNANDEZ_GALERIA-04.png',
-    GALLERY_2: '/profile/perla-ramirez-hernandez/PRHERNANDEZ_GALERIA-05.png',
-    GALLERY_3: '/profile/perla-ramirez-hernandez/PRHERNANDEZ_GALERIA-06.png'
+    BANNER: '/profile/perla-ramirez-hernandez/PRH-1.png', //CAMBIAR DIRECCION DE LAS IMAGENES
+    INFORMATION: '/profile/perla-ramirez-hernandez/PRH-4.png',
+    AVATAR: '/profile/perla-ramirez-hernandez/PRH-A.png',
+    GALLERY_1: '/profile/perla-ramirez-hernandez/PRH-2.png',
+    GALLERY_2: '/profile/perla-ramirez-hernandez/PRH-6.png',
+    GALLERY_3: '/profile/perla-ramirez-hernandez/PRH-5.png'
 }
 
 const CONTACT_DATA = {
