@@ -92,7 +92,7 @@ const ContactProfileTwo = (props: ContactProps) => {
     return (
         <section id='informationprofile'>
             {/* CONTACT PROFILE TWO  */}
-            <div className="pr-0 lg:pr-16 lg:flex lg:flex-row-reverse lg:items-center bg-t4background">
+            <div className="pr-0 lg:pr-16 lg:flex lg:flex-row-reverse lg:items-center " style={{background: '#7eb9ac'}}>
                 {/* CONTAINER TEXT PART - P BUTTON ICONS */}
                 <div className=" px-10  lg:pl-20 py-20 justify-start items-center md:mx-auto md:w-2/3">
                     <div className=' flex flex-col justify-center item-center'>
