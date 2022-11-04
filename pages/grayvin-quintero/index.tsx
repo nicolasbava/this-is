@@ -65,7 +65,7 @@ const Home: NextPage = () => {
           information={PERSONAL_DATA.HISTORY}
           pdf={CURRICULUM_DATA.CURRICULUM_VITAE}
           imgInformation={IMAGE_DATA.INFORMATION}
-          // btnName={'Editar'}
+          btnName={'EXPERIENCIA – SERVICIO'}
         />
         <PlinthTitle
           title={'Galería'}

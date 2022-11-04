@@ -1,4 +1,4 @@
-import { useRouter } from 'next/router';
+import { useRouter,  } from 'next/router';
 import emailjs from "emailjs-com";
 import React from 'react';
 
@@ -16,6 +16,7 @@ type ContactProps = {
     information: string;
     pdf: string;
     imgInformation: string;
+    btnName?: string
 };
 
 
@@ -29,7 +30,20 @@ const ContactProfileTwo = (props: ContactProps) => {
     const [userEmail, setUserEmail] = React.useState<string>('');
     const [userPhone, setUserPhone] = React.useState<string>('');
     const [userMessage, setUserMessage] = React.useState<string>('');
+    const [btnName, setBtnName] = React.useState<string>('');
 
+    
+    React.useEffect(() => {
+        
+        if(props.btnName){
+            setBtnName(props.btnName);
+        }
+        
+      return () => {
+        
+      }
+    }, [])
+    
     
 
     const onOpenModal = () => {
@@ -64,9 +78,12 @@ const ContactProfileTwo = (props: ContactProps) => {
                         <div className="pt-8 ">
                             <button onClick={() => onResumeClick()}
                                 className="w-full px-8 py-8 leading-5 transition-colors duration-200 transform bg-t4secondary rounded-md hover:bg-t4secondary focus:outline-none focus:bg-t4secondary  shadow-lg">
-                                <h2 className="mx-auto justify text-base font-semibold leading-none tracking-wide text-t4primary title-font">
+                                {!btnName && <h2 className="mx-auto justify text-base font-semibold leading-none tracking-wide text-t4primary title-font">
                                     VER CURRICULUM
-                                </h2>
+                                </h2>}
+                                {btnName && <h2 className="mx-auto justify text-base font-semibold leading-none tracking-wide text-t4primary title-font">
+                                    {btnName}
+                                </h2>}
                             </button>
                         </div>
 
