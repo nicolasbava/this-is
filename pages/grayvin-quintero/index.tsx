@@ -9,6 +9,7 @@ import Layout from '../../components/template3/layout/layout';
 import { CoverPageTwo } from '../../components/template3/coverpage/coverpagetwo';
 import { Plinth } from '../../components/template3/plinth/plinth';
 import { ContactProfileTwo } from '../../components/template3/contact/contacttwo';
+import { ContactProfileEdit } from '../../components/template3/contact/contactedit';
 import { PlinthTitle } from '../../components/template3/plinthtitle/plinthtitle';
 import { Gallery } from '../../components/template3/gallery/gallery';
 import FormContact from '../../components/template3/form/form';
@@ -64,6 +65,7 @@ const Home: NextPage = () => {
           information={PERSONAL_DATA.HISTORY}
           pdf={CURRICULUM_DATA.CURRICULUM_VITAE}
           imgInformation={IMAGE_DATA.INFORMATION}
+          // btnName={'Editar'}
         />
         <PlinthTitle
           title={'Galería'}

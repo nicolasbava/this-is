@@ -114,7 +114,7 @@ const ContactProfileEdit = (props: ContactProps) => {
                         <div className="flex flex-col">
                             <div className="px-6">
                                 <div className="flex flex-col w-3/4 ">
-                                    <div className="grid grid grid-cols-4 gap-4 mt-4">
+                                    <div className="grid grid-cols-4 gap-4 mt-4">
                                         <a href={`tel:${props.phone}`} target="_blank" rel="noopener noreferrer">
                                             <div className="flex items-center mb-3">
                                                 <div className="inline-flex items-center justify-center rounded-full flex-shrink-0">

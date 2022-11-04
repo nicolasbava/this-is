@@ -39,7 +39,7 @@ const SOCIALNET_DATA = {
 }
 
 const CURRICULUM_DATA = {
-    CURRICULUM_VITAE: '/profile/grayvin-quintero/curriculum-vitae.pdf'
+    CURRICULUM_VITAE: '/profile/grayvin-quintero/ES-Grayvin-Q.pdf'
 }
 
 const NONE_DATA = {

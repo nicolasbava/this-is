@@ -30,51 +30,7 @@ const ContactProfileTwo = (props: ContactProps) => {
     const [userPhone, setUserPhone] = React.useState<string>('');
     const [userMessage, setUserMessage] = React.useState<string>('');
 
-    const sendEmail = (e: any) => {
-        e.preventDefault();
-        let template_params: any = {
-            'name': name,
-            'email': email,
-            'userName': userName,
-            'subject': subject,
-            'userEmail': userEmail,
-            'userPhone': userPhone,
-            'userMessage': userMessage
-        }
-        console.log(template_params);
-        if (isFormValid()) {
-            emailjs.sendForm(
-                'service_jdjxzak',
-                'template_pco13tx',
-                e.target,
-                'user_F01lHHR9vneIUbIRTcwx6').then(res => {
-                    console.log(res)
-                }).catch(err => {
-                    console.log(err)
-                });
-            restInput();
-        } else {
-            console.log('Datos Incorrectos')
-        }
-
-    }
-    const isFormValid = () => {
-        return (
-            userName !== '' &&
-            subject !== '' &&
-            userEmail !== '' &&
-            userPhone !== '' &&
-            userMessage !== ''
-        )
-    }
-
-    const restInput = () => {
-        setUserName('');
-        setUserEmail('');
-        setSubject('');
-        setUserPhone('');
-        setUserMessage('');
-    }
+    
 
     const onOpenModal = () => {
         //setShowModal(true);
