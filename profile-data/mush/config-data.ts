@@ -19,9 +19,9 @@ const IMAGE_DATA = {
 const CONTACT_DATA = {
     EMAIL: 'lilitharutyunyan0806',
     PHONE: '59894068021',
-    ADDRESS: ' ',
+    ADDRESS: 'Columbia Market',
     NUMBER: '00',
-    LOCALITY: 'Centro',
+    LOCALITY: 'Lagomar',
     PROVINCE: 'Montevideo',
     COUNTRY: 'Uruguay'
 }
