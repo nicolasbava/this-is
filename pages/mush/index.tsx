@@ -9,7 +9,7 @@ import { PlinthTitle } from '../../components/template2/plinthtitle/plinthtitle'
 import { CoverPageTextButton } from '../../components/template2/coverpage/coverpageTextButton';
 import { CONTACT_DATA, CURRICULUM_DATA } from '../../profile-data/mush/config-data'; //CAMBIAR DIRECCION
 import { IMAGE_DATA, PERSONAL_DATA, SOCIALNET_DATA } from '../../profile-data/mush/config-data'; //CAMBIAR DIRECCION
-
+  
 
 const ProfilePage: NextPage = () => {
   return (
