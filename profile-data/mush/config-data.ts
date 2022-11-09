@@ -7,13 +7,13 @@ const PERSONAL_DATA = {
 }
 
 const IMAGE_DATA = {
-    BANNER: '/profile/mush/MUSH_PORTADA.png', //CAMBIAR DIRECCION DE LAS IMAGENES
-    INFORMATION: '/profile/mush/MUSH_PERFIL3.png',
-    AVATAR: '/profile/mush/MUSH_PERFIL2.png',
-    GALLERY_1: '/profile/mush/MUSH_GALERIA-04.png',
-    GALLERY_2: '/profile/mush/MUSH_GALERIA-05.png',
-    GALLERY_3: '/profile/mush/MUSH_GALERIA-06.png',
-    BACKGROUND: '/profile/mush/MUSH_GALERIA-05.png'
+    BANNER: '/profile/mush/M-1.png', //CAMBIAR DIRECCION DE LAS IMAGENES
+    INFORMATION: '/profile/mush/M-2.png',
+    AVATAR: '/profile/mush/M-12.png',
+    GALLERY_1: '/profile/mush/M-4.png',
+    GALLERY_2: '/profile/mush/M-5.png',
+    GALLERY_3: '/profile/mush/M-6.png',
+    COVERPAGE: '/profile/mush/M-14.png'
 }
 
 const CONTACT_DATA = {
