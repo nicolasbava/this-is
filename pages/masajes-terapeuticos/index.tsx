@@ -61,7 +61,7 @@ const ProfilePage: NextPage = () => {
           description={PERSONAL_DATA.HISTORY}
           pdf={CURRICULUM_DATA.CURRICULUM_VITAE}
           imgInformation={IMAGE_DATA.INFORMATION}
-          btnName={'CATÁLOGO WIJEX'}
+          btnName={'Servicios'}
           color={PERSONAL_DATA.TEMPLATE}
         />
         <PlinthColorTitle
